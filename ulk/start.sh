@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
 
-cd ulk
+# устанавливаем зависимости
+pip install -r requirements.txt
+
+# запускаем бота
 python bot.py
